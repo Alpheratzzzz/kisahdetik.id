@@ -14,14 +14,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kisahdetik.id"),
   title: "kisahdetik.id | Wedding & Event Content Creator Palembang",
   description:
-    "Jasa fotografi dan konten kreator profesional untuk wedding, event, dan graduation di Palembang, Banyuasin, dan Muba.",
+    "Jasa konten kreator profesional untuk wedding, event, dan graduation di Palembang, Banyuasin, dan Muba.",
+  keywords: [
+    "content creator",
+    "wedding",
+    "event",
+    "graduation",
+    "visual content",
+    "palembang",
+  ],
   openGraph: {
     title: "kisahdetik.id | Wedding & Event Content Creator Palembang",
     description:
-      "Jasa fotografi dan konten kreator profesional untuk wedding, event, dan graduation di Palembang, Banyuasin, dan Muba.",
+      "Jasa konten kreator profesional untuk wedding, event, dan graduation di Palembang, Banyuasin, dan Muba.",
     type: "website",
+    locale: "id_ID",
+    siteName: "kisahdetik.id",
+    images: ["/placeholder.svg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "kisahdetik.id | Wedding & Event Content Creator Palembang",
+    description:
+      "Jasa konten kreator profesional untuk wedding, event, dan graduation di Palembang, Banyuasin, dan Muba.",
     images: ["/placeholder.svg"],
   },
 };
