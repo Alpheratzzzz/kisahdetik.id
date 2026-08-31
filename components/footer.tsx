@@ -8,7 +8,7 @@ export function Footer() {
         <div className="space-y-3">
           <p className="font-serif text-2xl text-[#F5F5F5]">kisahdetik.id</p>
           <p className="max-w-sm text-sm leading-7 text-[#F5F5F5]/70">
-            Abadikan Setiap Detik, Jadikan Kisah.
+            Abadikan Setiap Detik kisah anda bersama kami.
           </p>
         </div>
         <div className="space-y-3">
@@ -47,7 +47,7 @@ export function Footer() {
           </h3>
           <div className="flex gap-3">
             <Link
-              href="https://instagram.com"
+              href="https://www.instagram.com/kisahdetik.id?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
@@ -56,7 +56,7 @@ export function Footer() {
               <Camera size={18} />
             </Link>
             <Link
-              href="https://www.tiktok.com"
+              href="https://www.tiktok.com/@kisahdetik.id?is_from_webapp=1&sender_device=pc"
               target="_blank"
               rel="noreferrer"
               aria-label="TikTok"
